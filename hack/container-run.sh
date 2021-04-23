@@ -20,7 +20,7 @@ else
     exit 1
 fi
 
-IMAGE=docker.io/openshift/origin-release:golang-1.16
+IMAGE=quay.io/elmiko/oc-man-plugin-builder
 
 ENGINE_CMD="${ENGINE} run --rm -v $(pwd):/go/src/github.com/elmiko/oc-man-plugin:Z  -w /go/src/github.com/elmiko/oc-man-plugin $IMAGE"
 
