@@ -1,7 +1,63 @@
 topics:
+  - title: authentication-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-authentication-operator/master/README.md
+  - title: catalog-operator
+    location: https://raw.githubusercontent.com/operator-framework/operator-lifecycle-manager/master/README.md
+  - title: cloud-credential-operator
+    location: https://raw.githubusercontent.com/openshift/cloud-credential-operator/master/README.md
+  - title: cluster-image-registry-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-image-registry-operator/master/README.md
+  - title: cluster-monitoring-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-monitoring-operator/master/README.md
+  - title: cluster-node-tuning-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-node-tuning-operator/master/README.md
+  - title: cluster-samples-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-samples-operator/master/README.md
+  - title: cluster-storage-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-storage-operator/master/README.md
+  - title: cluster-version-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-version-operator/master/README.md
+  - title: console-operator
+    location: https://raw.githubusercontent.com/openshift/console-operator/master/README.md
+  - title: dns-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-dns-operator/master/README.md
+  - title: etcd-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-etcd-operator/master/README.md
+  - title: ingress-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-ingress-operator/master/README.md
+  - title: insights-operator
+    location: https://raw.githubusercontent.com/openshift/insights-operator/master/README.md
+  - title: kube-apiserver-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-kube-apiserver-operator/master/README.md
+  - title: kube-controller-manager-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-kube-controller-manager-operator/master/README.md
+  - title: kube-storage-version-migrator-operator
+    location: https://github.com/openshift/cluster-kube-storage-version-migrator-operator/blob/master/README.md
   - title: machine-api-operator
     location: https://raw.githubusercontent.com/elmiko/machine-api-operator/manpages/docs/manpages/machine-api-operator.md
   - title: machine-api-controllers
     location: https://raw.githubusercontent.com/elmiko/machine-api-operator/manpages/docs/manpages/machine-api-controllers.md
+  - title: machine-approver
+    location: https://raw.githubusercontent.com/openshift/cluster-machine-approver/master/README.md
+  - title: machine-config-operator
+    location: https://raw.githubusercontent.com/openshift/machine-config-operator/master/docs/README.md
+  - title: manila-csi-driver-operator
+    location: https://raw.githubusercontent.com/openshift/csi-driver-manila-operator/master/README.md
+  - title: marketplace-operator
+    location: https://raw.githubusercontent.com/operator-framework/operator-marketplace/master/README.md
+  - title: olm-operator
+    location: https://raw.githubusercontent.com/operator-framework/operator-lifecycle-manager/master/README.md
+  - title: openshift-apiserver-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-openshift-apiserver-operator/master/README.md
+  - title: openshift-config-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-config-operator/master/README.md
+  - title: openshift-controller-manager-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-openshift-controller-manager-operator/master/README.md
+  - title: openshift-kube-scheduler-operator
+    location: https://raw.githubusercontent.com/openshift/cluster-kube-scheduler-operator/master/README.md
   - title: openshift-machine-api
     location: https://raw.githubusercontent.com/elmiko/machine-api-operator/manpages/docs/manpages/openshift-machine-api.md
+  - title: openstack-cinder-csi-driver-operator
+    location: https://raw.githubusercontent.com/openshift/openstack-cinder-csi-driver-operator/master/README.md
+  - title: service-ca-operator
+    location: https://raw.githubusercontent.com/openshift/service-ca-operator/master/README.md
