@@ -1,4 +1,4 @@
-.PHONY: clean tidy vendor
+.PHONY: build clean gather tidy vendor
 
 all: gather build
 
