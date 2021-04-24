@@ -13,7 +13,7 @@ OUTPUT_DIR = 'content'
 
 def main():
     logging.basicConfig(level=logging.INFO)
-   
+
     if not os.path.exists(OUTPUT_DIR):
         logging.info('creating output directory')
         os.mkdir(OUTPUT_DIR)
@@ -46,9 +46,9 @@ def main():
     indexfilename = os.path.join(OUTPUT_DIR, 'index.yaml')
     logging.info(f'writing index file {indexfilename}')
     with open(indexfilename, 'w') as indexfile:
-        data = yaml.dump({'titles': titles})
+        data = yaml.dump({'titles': sorted(titles)})
         indexfile.write(data)
-            
+
 
 if __name__ == '__main__':
     main()
