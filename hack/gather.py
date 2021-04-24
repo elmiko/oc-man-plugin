@@ -46,14 +46,20 @@ def main():
         connection.request('GET', url.path)
         response = connection.getresponse()
         if response.status != 200:
-            logging.error(f'unexpected status {response.status}  downloading content for {t["title"]}.')
+            logging.error(f'unexpected status {response.status} downloading content for {title}.')
             sys.exit(1)
         body = response.read()
 
         logging.info(f'writing content for {title}')
         outfilename = os.path.join(OUTPUT_DIR, title)
-        with open(outfilename, 'w') as outfile:
-            outfile.write(body.decode('utf8'))
+        with open(outfilename, mode='w', encoding='utf-8') as outfile:
+            try:
+                outfile.write(body.decode())
+            except UnicodeEncodeError as ex:
+                logging.error(f'error decoding content from {location} for topic at {i+1}')
+                logging.error(str(ex))
+                sys.exit(1)
+
             titles.append(title)
 
     if len(titles) == 0:
