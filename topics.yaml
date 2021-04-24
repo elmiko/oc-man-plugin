@@ -1,5 +1,7 @@
 topics:
-  - title: topics
-    location: ""
-  - title: help
-    location: ""
+  - title: machine-api-operator
+    location: https://raw.githubusercontent.com/elmiko/machine-api-operator/manpages/docs/manpages/machine-api-operator.md
+  - title: machine-api-controllers
+    location: https://raw.githubusercontent.com/elmiko/machine-api-operator/manpages/docs/manpages/machine-api-controllers.md
+  - title: openshift-machine-api
+    location: https://raw.githubusercontent.com/elmiko/machine-api-operator/manpages/docs/manpages/openshift-machine-api.md
