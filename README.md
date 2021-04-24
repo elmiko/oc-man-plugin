@@ -27,6 +27,8 @@ will be in the `bin` directory.
 A containerized build is available for environments where the prerequisites are not
 met. Type `./hack/container-run.sh make` to build the binary.
 
+Type `make clean` to remove the binary and downloaded content files.
+
 ## Install
 
 As with [kubectl plugin extensions](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/),

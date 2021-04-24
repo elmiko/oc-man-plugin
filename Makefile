@@ -6,7 +6,7 @@ build:
 	go build -o bin/oc-man
 
 clean:
-	rm bin/*
+	rm -r bin content
 
 gather:
 	python3 hack/gather.py
